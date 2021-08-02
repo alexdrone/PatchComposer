@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1629483526B158DF00C4BF19 /* NSApp+Modals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629483426B158DE00C4BF19 /* NSApp+Modals.swift */; };
+		1629483726B3180300C4BF19 /* PatchStreamName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629483626B3180300C4BF19 /* PatchStreamName.swift */; };
+		1630351926B569A4002D9EBB /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630351826B569A4002D9EBB /* Locale.swift */; };
+		1630351B26B5CFB8002D9EBB /* GraphAdjacencyListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630351A26B5CFB8002D9EBB /* GraphAdjacencyListNode.swift */; };
+		1649D20526B3DB5300EEF3FD /* PatchSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1649D20426B3DB5300EEF3FD /* PatchSettings.swift */; };
+		169883B626B0640A00A80DEF /* PatchDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169883B526B0640A00A80DEF /* PatchDataTypes.swift */; };
+		16ADED2426AC3587002CE188 /* PatchEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ADED2326AC3587002CE188 /* PatchEditorApp.swift */; };
+		16ADED2626AC3587002CE188 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ADED2526AC3587002CE188 /* ContentView.swift */; };
+		16ADED2826AC3588002CE188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16ADED2726AC3588002CE188 /* Assets.xcassets */; };
+		16ADED2B26AC3588002CE188 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16ADED2A26AC3588002CE188 /* Preview Assets.xcassets */; };
+		16ADED3226AC3615002CE188 /* PatchStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ADED3126AC3615002CE188 /* PatchStyle.swift */; };
+		16ADED3426AC8D1E002CE188 /* CGPoint+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ADED3326AC8D1E002CE188 /* CGPoint+Random.swift */; };
+		16ADED3626ACA799002CE188 /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ADED3526ACA799002CE188 /* View+Modifiers.swift */; };
+		16B934A826ADE05A007F2AC1 /* PatchLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B934A726ADE05A007F2AC1 /* PatchLine.swift */; };
+		16BE6ECB26AF155000BCB842 /* PatchEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BE6ECA26AF155000BCB842 /* PatchEditor.swift */; };
+		16BE6ECD26AF17D200BCB842 /* PatchEditorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BE6ECC26AF17D200BCB842 /* PatchEditorDelegate.swift */; };
+		16D9F5D426ACABAA008123EC /* PatchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9F5D326ACABAA008123EC /* PatchStore.swift */; };
+		16D9F5D726AD3296008123EC /* PatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9F5D626AD3296008123EC /* PatchView.swift */; };
+		16D9F5D926AD4B36008123EC /* PatchSocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9F5D826AD4B36008123EC /* PatchSocketView.swift */; };
+		16D9F5DB26AD59F0008123EC /* PatchText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9F5DA26AD59F0008123EC /* PatchText.swift */; };
+		16D9F5DD26AD6895008123EC /* PatchMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9F5DC26AD6895008123EC /* PatchMesh.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1629483426B158DE00C4BF19 /* NSApp+Modals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSApp+Modals.swift"; sourceTree = "<group>"; };
+		1629483626B3180300C4BF19 /* PatchStreamName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchStreamName.swift; sourceTree = "<group>"; };
+		1630351826B569A4002D9EBB /* Locale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
+		1630351A26B5CFB8002D9EBB /* GraphAdjacencyListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAdjacencyListNode.swift; sourceTree = "<group>"; };
+		1649D20426B3DB5300EEF3FD /* PatchSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchSettings.swift; sourceTree = "<group>"; };
+		169883B526B0640A00A80DEF /* PatchDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDataTypes.swift; sourceTree = "<group>"; };
+		16ADED2026AC3587002CE188 /* GraphEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16ADED2326AC3587002CE188 /* PatchEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchEditorApp.swift; sourceTree = "<group>"; };
+		16ADED2526AC3587002CE188 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16ADED2726AC3588002CE188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16ADED2A26AC3588002CE188 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16ADED3126AC3615002CE188 /* PatchStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchStyle.swift; sourceTree = "<group>"; };
+		16ADED3326AC8D1E002CE188 /* CGPoint+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Random.swift"; sourceTree = "<group>"; };
+		16ADED3526ACA799002CE188 /* View+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Modifiers.swift"; sourceTree = "<group>"; };
+		16B934A726ADE05A007F2AC1 /* PatchLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchLine.swift; sourceTree = "<group>"; };
+		16BE6ECA26AF155000BCB842 /* PatchEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchEditor.swift; sourceTree = "<group>"; };
+		16BE6ECC26AF17D200BCB842 /* PatchEditorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchEditorDelegate.swift; sourceTree = "<group>"; };
+		16D9F5D326ACABAA008123EC /* PatchStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchStore.swift; sourceTree = "<group>"; };
+		16D9F5D626AD3296008123EC /* PatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchView.swift; sourceTree = "<group>"; };
+		16D9F5D826AD4B36008123EC /* PatchSocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchSocketView.swift; sourceTree = "<group>"; };
+		16D9F5DA26AD59F0008123EC /* PatchText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchText.swift; sourceTree = "<group>"; };
+		16D9F5DC26AD6895008123EC /* PatchMesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchMesh.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16ADED1D26AC3587002CE188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1666146B26AF134800AB090A /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				1630351826B569A4002D9EBB /* Locale.swift */,
+				16ADED3126AC3615002CE188 /* PatchStyle.swift */,
+				16D9F5D326ACABAA008123EC /* PatchStore.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		1666146C26AF135600AB090A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				16ADED3326AC8D1E002CE188 /* CGPoint+Random.swift */,
+				16ADED3526ACA799002CE188 /* View+Modifiers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		16ADED1726AC3587002CE188 = {
+			isa = PBXGroup;
+			children = (
+				16ADED2226AC3587002CE188 /* GraphEditor */,
+				16ADED2126AC3587002CE188 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16ADED2126AC3587002CE188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16ADED2026AC3587002CE188 /* GraphEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16ADED2226AC3587002CE188 /* GraphEditor */ = {
+			isa = PBXGroup;
+			children = (
+				1666146C26AF135600AB090A /* Extensions */,
+				1666146B26AF134800AB090A /* Environment */,
+				16D9F5D526AD328B008123EC /* Views */,
+				16ADED2326AC3587002CE188 /* PatchEditorApp.swift */,
+				16ADED2526AC3587002CE188 /* ContentView.swift */,
+				16ADED2726AC3588002CE188 /* Assets.xcassets */,
+				16ADED2926AC3588002CE188 /* Preview Content */,
+			);
+			path = GraphEditor;
+			sourceTree = "<group>";
+		};
+		16ADED2926AC3588002CE188 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16ADED2A26AC3588002CE188 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16BE6EC826AF153700BCB842 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				16D9F5D626AD3296008123EC /* PatchView.swift */,
+				16D9F5D826AD4B36008123EC /* PatchSocketView.swift */,
+				16D9F5DA26AD59F0008123EC /* PatchText.swift */,
+				16D9F5DC26AD6895008123EC /* PatchMesh.swift */,
+				16B934A726ADE05A007F2AC1 /* PatchLine.swift */,
+				1629483426B158DE00C4BF19 /* NSApp+Modals.swift */,
+				1629483626B3180300C4BF19 /* PatchStreamName.swift */,
+				1649D20426B3DB5300EEF3FD /* PatchSettings.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		16BE6EC926AF154300BCB842 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				16BE6ECA26AF155000BCB842 /* PatchEditor.swift */,
+				16BE6ECC26AF17D200BCB842 /* PatchEditorDelegate.swift */,
+				169883B526B0640A00A80DEF /* PatchDataTypes.swift */,
+				1630351A26B5CFB8002D9EBB /* GraphAdjacencyListNode.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		16D9F5D526AD328B008123EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16BE6EC926AF154300BCB842 /* Public */,
+				16BE6EC826AF153700BCB842 /* Internal */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16ADED1F26AC3587002CE188 /* GraphEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16ADED2E26AC3588002CE188 /* Build configuration list for PBXNativeTarget "GraphEditor" */;
+			buildPhases = (
+				16ADED1C26AC3587002CE188 /* Sources */,
+				16ADED1D26AC3587002CE188 /* Frameworks */,
+				16ADED1E26AC3587002CE188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphEditor;
+			productName = PatchEditor;
+			productReference = 16ADED2026AC3587002CE188 /* GraphEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16ADED1826AC3587002CE188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					16ADED1F26AC3587002CE188 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 16ADED1B26AC3587002CE188 /* Build configuration list for PBXProject "GraphEditor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16ADED1726AC3587002CE188;
+			productRefGroup = 16ADED2126AC3587002CE188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16ADED1F26AC3587002CE188 /* GraphEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16ADED1E26AC3587002CE188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16ADED2B26AC3588002CE188 /* Preview Assets.xcassets in Resources */,
+				16ADED2826AC3588002CE188 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16ADED1C26AC3587002CE188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16ADED2626AC3587002CE188 /* ContentView.swift in Sources */,
+				16ADED2426AC3587002CE188 /* PatchEditorApp.swift in Sources */,
+				1629483526B158DF00C4BF19 /* NSApp+Modals.swift in Sources */,
+				1649D20526B3DB5300EEF3FD /* PatchSettings.swift in Sources */,
+				169883B626B0640A00A80DEF /* PatchDataTypes.swift in Sources */,
+				16D9F5D926AD4B36008123EC /* PatchSocketView.swift in Sources */,
+				16D9F5D426ACABAA008123EC /* PatchStore.swift in Sources */,
+				16B934A826ADE05A007F2AC1 /* PatchLine.swift in Sources */,
+				16ADED3226AC3615002CE188 /* PatchStyle.swift in Sources */,
+				16ADED3426AC8D1E002CE188 /* CGPoint+Random.swift in Sources */,
+				16BE6ECB26AF155000BCB842 /* PatchEditor.swift in Sources */,
+				1630351926B569A4002D9EBB /* Locale.swift in Sources */,
+				16BE6ECD26AF17D200BCB842 /* PatchEditorDelegate.swift in Sources */,
+				16D9F5DD26AD6895008123EC /* PatchMesh.swift in Sources */,
+				16ADED3626ACA799002CE188 /* View+Modifiers.swift in Sources */,
+				1629483726B3180300C4BF19 /* PatchStreamName.swift in Sources */,
+				16D9F5DB26AD59F0008123EC /* PatchText.swift in Sources */,
+				16D9F5D726AD3296008123EC /* PatchView.swift in Sources */,
+				1630351B26B5CFB8002D9EBB /* GraphAdjacencyListNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16ADED2C26AC3588002CE188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16ADED2D26AC3588002CE188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		16ADED2F26AC3588002CE188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphEditor/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.alexdrone.PatchEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		16ADED3026AC3588002CE188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphEditor/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.alexdrone.PatchEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16ADED1B26AC3587002CE188 /* Build configuration list for PBXProject "GraphEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16ADED2C26AC3588002CE188 /* Debug */,
+				16ADED2D26AC3588002CE188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16ADED2E26AC3588002CE188 /* Build configuration list for PBXNativeTarget "GraphEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16ADED2F26AC3588002CE188 /* Debug */,
+				16ADED3026AC3588002CE188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16ADED1826AC3587002CE188 /* Project object */;
+}
